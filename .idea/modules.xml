@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/authentication-demo.iml" filepath="$PROJECT_DIR$/authentication-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-authen/basic-authen.iml" filepath="$PROJECT_DIR$/basic-authen/basic-authen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt-authen/jwt-authen.iml" filepath="$PROJECT_DIR$/jwt-authen/jwt-authen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-core-authen/lib-core-authen.iml" filepath="$PROJECT_DIR$/lib-core-authen/lib-core-authen.iml" />
+    </modules>
+  </component>
+</project>

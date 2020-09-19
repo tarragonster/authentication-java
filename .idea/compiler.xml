@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jwt-authen" />
+        <module name="basic-authen" />
+        <module name="lib-core-authen" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authentication-demo" target="1.8" />
+      <module name="basic-authen" target="1.8" />
+      <module name="jwt-authen" target="1.8" />
+      <module name="lib-core-authen" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="basic-authen" options="-parameters" />
+      <module name="jwt-authen" options="-parameters" />
+      <module name="lib-core-authen" options="-parameters" />
+    </option>
+  </component>
+</project>
